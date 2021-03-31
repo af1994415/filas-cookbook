@@ -1,6 +1,4 @@
-:root {
 
-}
 * {
 	margin: 0;
 	padding: 0;
@@ -8,6 +6,31 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.logo h1{
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 100px;	
+}
+
+.logo {
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+}
+.logo a{
 	color: black;
+
+}
+img {
+	margin-left: 5%;
+	width: 500px;
+
+}
+ol, ul{
+	margin-left: 7%;
+}
+h2 {
+	margin-left: 5%;
 }
